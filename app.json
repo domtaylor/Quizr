@@ -1,0 +1,9 @@
+{
+    "name": "Skin Quiz",
+    "website": "https://skin-quiz.reiwadev.co.uk",
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      }
+    ]
+  }
