@@ -1,6 +1,6 @@
 {
     "name": "Skin Quiz",
-    "website": "https://skin-quiz.reiwadev.co.uk",
+    "website": "https://3c7a-82-37-151-49.ngrok.io/auth?shop=skin-care-quiz.myshopify.com",
     "buildpacks": [
       {
         "url": "heroku/nodejs"

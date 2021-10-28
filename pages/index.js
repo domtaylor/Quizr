@@ -13,7 +13,7 @@ class Index extends React.Component {
       }
 
     componentDidMount(){
-        this.props.getSettings(this.props.query.shop || 'skin-care-quiz.myshopify.com')
+        this.props.getSettings(this.props.query.shop)
     }
 
     render() {
