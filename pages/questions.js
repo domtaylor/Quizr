@@ -1,8 +1,10 @@
+import React from 'react'
 import QuestionsEmptyState from '../components/QuestionsEmptyState'
 import QuestionsList from '../components/QuestionsList'
 import { connect } from 'react-redux'
 import { getSettings, lowerQuestion, higherQuestion } from '../store'
-import { Loading } from '@shopify/polaris';
+import { Loading } from '@shopify/polaris'
+
 
 class Questions extends React.Component {
 

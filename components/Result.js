@@ -1,3 +1,4 @@
+import React from 'react'
 import ProductDisplay from './productDisplay'
 
 class Result extends React.Component {

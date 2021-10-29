@@ -1,4 +1,5 @@
 require('isomorphic-fetch');
+import React from 'react'
 import { connect } from 'react-redux'
 import GeneralForm from '../components/GeneralForm';
 import { getSettings, saveSettings } from '../store'

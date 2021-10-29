@@ -1,3 +1,4 @@
+import React from 'react'
 import { Navigation, Frame } from '@shopify/polaris';
 import {
   DuplicateMinor,

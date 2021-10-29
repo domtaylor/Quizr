@@ -1,8 +1,9 @@
+import React from 'react'
 import OptionsEmptyState from '../components/OptionsEmptyState'
 import OptionsList from '../components/OptionsList'
 import { connect } from 'react-redux'
 import { getSettings, saveSettings } from '../store'
-import { Loading } from '@shopify/polaris';
+import { Loading } from '@shopify/polaris'
 
 class Options extends React.Component {
 
