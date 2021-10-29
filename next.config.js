@@ -5,6 +5,11 @@ const apiKey = JSON.stringify(process.env.SHOPIFY_API_KEY)
 const appURL = JSON.stringify(process.env.APP_URL)
 
 module.exports = {
+  eslint: {
+    // Warning: This allows production builds to successfully complete even if
+    // your project has ESLint errors.
+    ignoreDuringBuilds: true,
+  },
   webpack: (config) => {
     const env = { API_KEY: apiKey, APP_URL: appURL };
     config.plugins.push(new webpack.DefinePlugin(env));
@@ -15,6 +20,7 @@ module.exports = {
       include: /node_modules/,
       type: "javascript/auto",
     });
+
 
     return config;
   },

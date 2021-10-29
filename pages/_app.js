@@ -1,5 +1,5 @@
+import React from 'react'
 import ApolloClient from "apollo-boost"
-import Head from 'next/head'
 import { ApolloProvider } from "react-apollo"
 import App from "next/app"
 import Cookies from 'js-cookie'
@@ -63,11 +63,6 @@ class MyApp extends App {
   render() {
     const { Component, pageProps, host, reduxStore } = this.props;
     return (
-      <>
-      <Head>
-        <title>Eigenhain Quiz</title>
-        <meta charSet="utf-8" />
-      </Head>
       <AppProvider i18n={translations} shopOrigin={this.state.shopOrigin} forceRedirect>
         <Provider
           config={{
@@ -83,7 +78,6 @@ class MyApp extends App {
           </ReduxProvider>
         </Provider>
       </AppProvider>
-      </>
     );
   }
 }

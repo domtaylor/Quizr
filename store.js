@@ -454,7 +454,7 @@ export function initializeStore () {
 }
 
 // import { Page } from "@shopify/polaris";
-// import { ResourcePicker } from "@shopify/app-bridge-react";
+// import {ResourcePicker} from '@shopify/polaris/embedded';
 
 // class Index extends React.Component {
 //   state = { open: false }

@@ -3,7 +3,6 @@ import { Layout,
     Page,
     FormLayout,
     TextField,
-    ResourcePicker,
     Button,
     Card,
     PageActions,
@@ -11,6 +10,7 @@ import { Layout,
     Heading,
     Checkbox
   } from '@shopify/polaris';
+  import {ResourcePicker} from '@shopify/app-bridge/actions'
   import ProductDisplay from '../components/productDisplay'
   import {Router} from '../routes'
   import { connect } from 'react-redux'
