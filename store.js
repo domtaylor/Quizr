@@ -14,7 +14,6 @@ const initialState = {
     isLoaded: false,
     isSaving: false,
     settings: {
-        shop: 'skin-care-quiz.myshopify.com',
         collectEmailChecked: true,
         resultsTitle: '',
         resultsParagraph: '',

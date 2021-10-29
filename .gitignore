@@ -19,3 +19,7 @@ config/tunnel.pid
 
 # next build output
 .next/
+
+# Tests
+__tests__
+enzyme.js

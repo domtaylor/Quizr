@@ -2,8 +2,11 @@
   "name": "shopify-app-node",
   "version": "1.0.0",
   "description": "Shopify's node app for CLI tool",
+  "homepage": "https://domtaylor.github.io/quizr/",
   "scripts": {
     "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
     "dev": "cross-env NODE_ENV=development nodemon ./server/index.js --watch ./server/index.js",
     "build": "NEXT_TELEMETRY_DISABLED=1 next build",
     "start": "cross-env NODE_ENV=production node ./server/index.js"

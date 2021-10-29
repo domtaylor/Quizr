@@ -14,7 +14,7 @@
 {{ 'iframeResizer.min.js' | asset_url | script_tag }}
 
 <div class="skin-quiz-Wrap">
-	<iframe id="quizIframe" class="skin-quiz" src="https://skin-quiz.reiwadev.co.uk/{{ shop.permanent_domain | remove: '.myshopify.com' }}" frameborder="0" onload="resizeIframe(this)"></iframe>
+	<iframe id="quizIframe" class="skin-quiz" src="https://quizr.vercel.app/{{ shop.permanent_domain | remove: '.myshopify.com' }}" frameborder="0" onload="resizeIframe(this)"></iframe>
 </div>
 <script>iFrameResize({log:false}, '#quizIframe')</script>
 
