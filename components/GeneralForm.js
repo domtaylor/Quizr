@@ -1,10 +1,10 @@
+import React from 'react'
 import { Layout, 
     Card, 
     FormLayout, 
     Page, 
     TextField
 } from '@shopify/polaris';
-
 
 class GeneralForm extends React.Component {
     constructor(props) { 
