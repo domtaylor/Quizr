@@ -1,10 +1,11 @@
 const { parsed: localEnv } = require("dotenv").config();
 
 const webpack = require("webpack");
-const apiKey = JSON.stringify(process.env.SHOPIFY_API_KEY)
-const appURL = JSON.stringify(process.env.APP_URL)
+const apiKey = JSON.stringify(process.env.SHOPIFY_API_KEY);
+const appURL = JSON.stringify(process.env.APP_URL);
 
 module.exports = {
+  shop: "skin-care-quiz.myshopify.com",
   eslint: {
     // Warning: This allows production builds to successfully complete even if
     // your project has ESLint errors.
@@ -20,7 +21,6 @@ module.exports = {
       include: /node_modules/,
       type: "javascript/auto",
     });
-
 
     return config;
   },

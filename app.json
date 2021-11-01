@@ -1,9 +1,10 @@
 {
-    "name": "Skin Quiz",
-    "website": "https://quizr.vercel.app/",
-    "buildpacks": [
-      {
-        "url": "heroku/nodejs"
-      }
-    ]
-  }
+  "name": "Skin Quiz",
+  "website": "https://quizr-view.herokuapp.com",
+  "shop": "skin-care-quiz.myshopify.com",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
