@@ -19,7 +19,7 @@ class QuizPreview extends React.Component {
           <div className="quizrWrap">
             <iframe
               src={
-                "https://quizr-view.herokuapp.com" +
+                "https://quizr.vercel.app/" +
                 this.props.settings.shop.replace(".myshopify.com", "")
               }
               frameborder="0"

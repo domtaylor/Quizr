@@ -67,7 +67,7 @@ app.prepare().then(async () => {
         }
 
         // Redirect to app with shop parameter upon auth
-        ctx.redirect(`/?shop=${shop}&host=${host}`);
+        ctx.redirect(`/?shop=skin-care-quiz-myshopify.com&host=${host}`);
       },
     })
   );

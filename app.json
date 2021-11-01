@@ -1,6 +1,6 @@
 {
   "name": "Skin Quiz",
-  "website": "https://quizr-view.herokuapp.com",
+  "website": "https://quizr.vercel.app",
   "shop": "skin-care-quiz.myshopify.com",
   "buildpacks": [
     {
